@@ -1,3 +1,7 @@
+# News Sentiment Analysis using Python, Pandas, and BeautifulSoup
+# Takes in article data from the FMP financial information endpoint and gathers the sentiment through
+# polarity and subjectivity calculations. Determines whether these articles were based on facts or opinions
+
 def FMPNews(page=0, size=5):
     key = 'jvL9q2IaEmqL48PgKjBPShfwhIBBeOj2'
     return f'https://financialmodelingprep.com/api/v3/fmp/articles?page={page}&size={size}&apikey={key}'
