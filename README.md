@@ -1,2 +1,3 @@
-# RESTfulWebAPI
- A simple RESTful Web API built using Python and Flask
+# Stock News Analysis
+
+- A Pandas Dataframe that determines whether the news sentiment for a given company is positive or negative and differentiaties between whether that is based on fact or opinion
